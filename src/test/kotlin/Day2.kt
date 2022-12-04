@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test
 
-class SecondDay {
+class Day2 {
 
     val inputString = "A Y\n" +
             "B X\n" +
@@ -9,13 +9,13 @@ class SecondDay {
     @Test
     fun test21() {
         val input = inputString.split("\n")
-        assert(secondDay1(input) == 15)
+        assert(day2_1(input) == 15)
     }
 
     @Test
     fun test22() {
         val input = inputString.split("\n")
-        assert(secondDay2(input) == 12)
+        assert(day2_2(input) == 12)
     }
 
 }

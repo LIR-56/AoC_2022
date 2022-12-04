@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test
 
-class FirstDay {
+class Day1 {
 
     val inputString = "1000\n" +
             "2000\n" +

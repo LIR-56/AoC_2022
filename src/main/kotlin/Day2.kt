@@ -1,6 +1,6 @@
 import java.lang.RuntimeException
 
-fun secondDay1(input: List<String>): Int {
+fun day2_1(input: List<String>): Int {
     var result = 0
     for (i in input) {
         if (i == "") continue
@@ -46,7 +46,7 @@ private fun scoresForOutcome(string: List<String>): Int {
     }
 }
 
-fun secondDay2(input: List<String>): Int {
+fun day2_2(input: List<String>): Int {
     var result = 0
     for (i in input) {
         if (i == "") continue
