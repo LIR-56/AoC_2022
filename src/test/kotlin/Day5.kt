@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test
 
 class Day5 {
-    var inputString = "    [D]    \n" +
+    val inputString = "    [D]    \n" +
             "[N] [C]    \n" +
             "[Z] [M] [P]\n" +
             " 1   2   3 \n" +
