@@ -62,7 +62,7 @@ fun day12_2(input: String): Int {
     return search(map, searchQueue, end)
 }
 
-fun search(map: List<List<MapPiece>>, searchQueueInitialized: LinkedList<Node>, end: Point): Int {
+private fun search(map: List<List<MapPiece>>, searchQueueInitialized: LinkedList<Node>, end: Point): Int {
     var node: Node
     while (searchQueueInitialized.size > 0) {
         node = searchQueueInitialized.pollFirst()
@@ -123,8 +123,8 @@ fun search(map: List<List<MapPiece>>, searchQueueInitialized: LinkedList<Node>, 
     return Int.MAX_VALUE
 }
 
-class MapPiece(val height: Int, var isVisited: Boolean)
+private class MapPiece(val height: Int, var isVisited: Boolean)
 
-data class Node(val point: Point, val layer: Int, val whereToGo: ArrayList<Node>)
+private data class Node(val point: Point, val layer: Int, val whereToGo: ArrayList<Node>)
 
-data class Point(val y: Int, val x: Int, val height: Int)
+private data class Point(val y: Int, val x: Int, val height: Int)
