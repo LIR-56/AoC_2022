@@ -7,6 +7,6 @@ fun main() {
     val reader = BufferedReader(InputStreamReader(System.`in`))
     val input = reader.readText()
     reader.close()
-    println(day14_2(input))
+    println(day15_2(input, 4_000_000))
 }
 
